@@ -26,5 +26,5 @@ jobs:
     - run: npm run build
    # - run: npm run build --if-present
    # - run: npm i -g pm2
-  #  - run: pm2 start npm --name "Using pm2 deplyoed nextjs successfully" -- start 
+    - run: pm2 restart "deplyoed nextjs successfully"
   #  - run: pm2 ls ##
