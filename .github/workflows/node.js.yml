@@ -11,9 +11,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - run: nvm install --lts
-    - run: node -v
-    - run: npm install
     - run: npm i -g pm2
     - run: npm ci
     - run: npm run build --if-present
